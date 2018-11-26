@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Unix Permission Calculator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Calculator for Unix permissions">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1>Unix Permission Calculator</h1>
+  <div id="container">
+    <!-- user -->
+    <div class="category" id="user">
+      <div class="permissionLabel">user can</div>
+      <div class="read permission yes">
+        <div class="permissionLabel rwe" tabindex="1">read</div>
+      </div>
+      <div class="write permission yes">
+        <div class="permissionLabel rwe" tabindex="2">write</div>
+      </div>
+      <div class="execute permission yes">
+        <div class="permissionLabel rwe" tabindex="3">execute</div>
+      </div>
+    </div>
+    <!-- group -->
+    <div class="category" id="group">
+      <div class="permissionLabel">group can</div>
+      <div class="read permission yes">
+        <div class="permissionLabel rwe" tabindex="4">read</div>
+      </div>
+      <div class="write permission yes">
+        <div class="permissionLabel rwe" tabindex="5">write</div>
+      </div>
+      <div class="execute permission yes">
+        <div class="permissionLabel rwe" tabindex="6">execute</div>
+      </div>
+    </div>
+    <!-- other -->
+    <div class="category" id="other">
+      <div class="permissionLabel">others can</div>
+      <div class="read permission yes">
+        <div class="permissionLabel rwe" tabindex="7">read</div>
+      </div>
+      <div class="write permission yes">
+        <div class="permissionLabel rwe" tabindex="8">write</div>
+      </div>
+      <div class="execute permission yes">
+        <div class="permissionLabel rwe" tabindex="9">execute</div>
+      </div>
+    </div>
+    <input type="text" readonly maxlength=3 id="octal" name="octal" value="777">
+    <h3 id="clicktocopy">Click<span id="long"> e.g. to </span><span id="short">2</span>copy</h3>
+    <h3 id="example">e.g. <input readonly="true" id="chmodCode" class="code" value="chmod 777 "></input> </h3>
+  </div>
+  <p class="copy">By <em><a href="https://eamonma.com">Eamon Ma</a></em>, under the <em><a href="https://eam.im/mit">MIT License</a></em></p>
+  <script type="text/javascript" src="app.js"></script>
+  <noscript>
+    This calculator does not work without JavaScript!
+  </noscript>
+</body>
+
+</html>

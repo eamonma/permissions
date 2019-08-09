@@ -1,0 +1,16 @@
+{
+  "name": "permissions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "parcel index.html --log-level=4",
+    "build": "parcel build index.html --log-level=4 --out-dir dist --public-url \".\""
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "parcel": "^1.12.3"
+  }
+}

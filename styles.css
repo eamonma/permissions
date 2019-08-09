@@ -153,18 +153,15 @@ noscript {
     z-index: 1000;
     transition: 0.15s;
   }
-
   .rwe:hover {
     box-shadow: 0.25px 0.25px 15px rgba(50, 50, 50, 0.5);
     z-index: 10000;
   }
-
   #clicktocopy {
     position: absolute;
     bottom: 50px;
     padding: 5px;
   }
-
   h1 {
     width: 420px;
     left: 0;
@@ -178,7 +175,6 @@ noscript {
     font-size: 30px;
     border-bottom: 2px solid rgba(44, 62, 80, 1);
   }
-
   #container {
     /* center position */
     position: absolute;
@@ -192,7 +188,6 @@ noscript {
     height: 400px;
     border-radius: 5px;
   }
-
   .category {
     width: 33.33%;
     height: 100%;
@@ -200,7 +195,6 @@ noscript {
     /*border: 1px solid #2c3e50;*/
     border-top: 0;
   }
-
   .permissionLabel {
     border-top: 0;
     border-bottom: 2px solid #2c3e50;
@@ -231,7 +225,6 @@ noscript {
     margin: 0;
     cursor: pointer;
   }
-
   #octal {
     height: 80px;
     width: 200px;
@@ -248,7 +241,6 @@ noscript {
     right: 0;
     bottom: 30px;
   }
-
   h3 {
     color: rgba(44, 62, 80, 1);
     position: absolute;
@@ -278,7 +270,6 @@ noscript {
     margin-top: 5px;
     margin-bottom: 5px;
   }
-
   #octal {
     width: 80%;
     margin-left: 10%;
@@ -289,18 +280,15 @@ noscript {
     padding: 10px;
     text-align: center;
   }
-
   .category>.permissionLabel {
     color: rgba(44, 62, 80, 1);
     margin-top: 0;
     margin-bottom: 0;
   }
-
   h3 {
     color: rgba(44, 62, 80, 1);
     float: left;
   }
-
   p {
     position: fixed;
     bottom: 0;
@@ -335,7 +323,6 @@ noscript {
   #clicktocopy>#long {
     display: none;
   }
-
   #clicktocopy>#short {
     display: inline;
   }
@@ -347,7 +334,6 @@ noscript {
     position: absolute;
     left: 0;
   }
-
   #example {
     left: 20px;
   }
